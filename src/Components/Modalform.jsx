@@ -33,7 +33,7 @@ const SurveyModal = ({ isOpen, onRequestClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:4000/', {
+      const response = await fetch('https://accredian-backend-task-l9w8.onrender.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
