@@ -15,9 +15,12 @@ const Nav = () => {
             <h1>Refer & Earn</h1>
             <h1>Resources</h1>
             <h1>About us</h1>
+            <a href="https://accredian.com/login" target="_blank" rel="noopener noreferrer">
             <button className='w-[77px] h-[40px] bg-[#eaedf1] rounded-md'>Login</button>
+            </a>
+            <a href="https://trial.accredian.com/" target="_blank" rel="noopener noreferrer">
             <button className='w-[115px] h-[40px] bg-[#1A73E8] rounded-md text-white'>Try for free</button>
-
+            </a>
         </div>
     </div>
     </div>
